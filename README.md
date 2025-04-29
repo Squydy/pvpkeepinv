@@ -1,15 +1,11 @@
-# PvP No Keep
+# PvP Keep Inventory
 
-This mod prevents keep inventory from working if they die to a player.
+Keeps your inventory when dying to another player. Murder without guilt!
 
 ---
-## Usage
+## Todo
+- Currently players drop experince even thought they do not lose any. Not Sure if I should add an option to disable this or just fix it out right since it can lead to infinite experince.
 
-Keep inventory must be enabled
-```
-/gamerule keepInventory true
-```
-Then disable keep inventory when pvp with the following gamerule command:
-```
-/gamerule keepInventoryPvp false
-```
+- Add a gamerule flag
+
+- probably some other stuff i forgot
